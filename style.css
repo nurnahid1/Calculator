@@ -1,0 +1,103 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 52%, rgba(0,212,255,1) 100%);
+position: relative;
+}
+.container{
+    text-align: center;
+    margin: 0 auto;
+   
+    
+    
+}
+h2{
+    color: rgba(245, 245, 245, 0.904);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 60px;
+    display: inline;
+    position: absolute;
+    font-size: 30px;
+    
+}
+h5{
+    color: rgba(245, 245, 245, 0.404);
+    position:absolute;
+    left: 62px;
+    top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.calculator{
+    background-color:transparent;
+     width: 350px;
+     margin: auto;
+     padding-top: 15px;
+     padding-bottom: 10px;
+     margin-top: 40px;
+     border-radius: 20px;
+     border-radius: 23px;
+
+     box-shadow: 3px 2px 3px 1px;
+     
+     
+}
+.screen-field{
+ padding: 30px 30px;
+ border-radius: 10px;
+ margin-top: 15px;
+ font-size: 20px;
+ border: none;
+ outline: none;
+}
+.btn{
+    padding: 20px;
+    margin: 10px;
+    background-color:transparent ;
+    border: none;
+    border-radius: 30%;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.btn:hover{
+    
+    border-radius: 35px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 8px;
+            
+}
+.btn-d {
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-radius: 20px;
+   margin-left: 12px;
+   margin-right: 5px;
+   background-color:transparent;
+   color: white;
+   border:none
+}
+.btn-d:hover{
+    border-radius: 35px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 8px;
+}
+.btn-4{
+   
+   width: 130px;
+   margin-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+   margin-right: 9px;
+   background-color:transparent;
+   color: white;
+   border:none
+}
+.btn-4:hover{
+    border-radius: 35px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 8px;
+}
+.first-row{
+    margin-top: 10px;
+}
